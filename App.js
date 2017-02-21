@@ -77,7 +77,7 @@ Ext.define('CustomApp', {
                 add: function () {
                     // Counts in our viewports regions as they load
                     x++;
-                    console.log('Viewport Rendering [ #',x,' ',this.region,']');
+                    console.log('Viewport Rendering [ #',x,']');
                 }
             },
             scope: me
