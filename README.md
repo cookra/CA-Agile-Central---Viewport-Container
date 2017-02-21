@@ -1,10 +1,32 @@
-Agile Central Chart
+Agile Central: Viewport Container Template
 =========================
 
 ## Overview
-Version Two Building
-Initial Build: R Cook
-2017-02-16
+Stub file template that has a viewport with 5 panels
+
+// |""""""""|""""""""""""""""""""""""""""|""""""""|
+// | West   | North                      | East   |
+// |        |""""""""""""""""""""""""""""|        |
+// |        | Center                     |        |
+// |        |""""""""""""""""""""""""""""|        |
+// |        | South                      |        |
+// |""""""""|""""""""""""""""""""""""""""|""""""""|
+
+We also all listeners for:
+
+Pre-render
+Afer-render
+Add
+
+## Created with
+Node.JS
+Rally App Builder
+Based on Sencha ExtJS4 (As Agile Central is built on 4.1)
+
+## Notes
+Feel free to update, make comments and come up with better ways of doing this as i'm starting out!
+
+R
 
 ## License
 
