@@ -8,8 +8,8 @@ AC Viewport (5 Panel) template
   
 Includes listeners for:  
   
-beforerender
-afterrender
+beforerender  
+afterrender  
 add  
   
 ## Created with
