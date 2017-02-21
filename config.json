@@ -1,5 +1,5 @@
 {
-    "name": "Agile Central Chart",
+    "name": "Agile Central Viewport Template",
     "className": "CustomApp",
     "server": "https://rally1.rallydev.com",
     "sdk": "2.1",

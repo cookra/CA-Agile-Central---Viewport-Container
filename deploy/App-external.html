@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Agile Central Chart</title>
+    <title>Agile Central Viewport Template</title>
 
     <script type="text/javascript" src="https://rally1.rallydev.com/apps/2.1/sdk.js"></script>
 
@@ -10,7 +10,7 @@
                 Ext.define("CustomApp",{extend:"Rally.app.App",componentCls:"app",launch:function(){console.log("f launch");var me=this;me._createLayout()},_createLayout:function(){console.log("f _createLayout");var me=this,x=0;this.viewport=Ext.create("Ext.container.Viewport",{extend:"Ext.app.Controller",layout:"border",items:[{region:"north",xtype:"panel",itemId:"north",id:"viewPortnorth",height:40,minHeight:40,html:"north"},{region:"east",xtype:"panel",itemId:"east",id:"viewPortEast",width:40,minWidth:40,html:"East"},{region:"south",xtype:"panel",itemId:"south",id:"viewPortSouth",height:120,minHeight:120,html:"South"},{region:"west",xtype:"panel",itemId:"west",id:"viewPortWast",width:40,minWidth:40,html:"West"},{region:"center",xtype:"panel",itemId:"center",id:"viewPortCenter",html:"Center"}],listeners:{beforerender:function(){console.log("Viewport Loading")},afterrender:function(){console.log("Viewport Rendered")},add:function(){x++,console.log("Viewport Rendering [ #",x,"]")}},scope:me}),x=null,console.log("finished")}});
 
             Rally.launchApp('CustomApp', {
-                name:"Agile Central Chart",
+                name:"Agile Central Viewport Template",
 	            parentRepos:""
             });
 
