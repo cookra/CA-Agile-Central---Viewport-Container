@@ -6,11 +6,11 @@ AC Viewport (5 Panel) template
 
 ![5 panel Viewport](/gitimages/layout.png?raw=true )  
   
-We also add listeners for:  
+Includes listeners for:  
   
-Pre-render  
-Afer-render  
-Add  
+beforerender
+afterrender
+add  
   
 ## Created with
 Node.JS  
@@ -18,7 +18,7 @@ Rally App Builder
 Based on Sencha ExtJS4 (As Agile Central is built on 4.1)  
 
 ## Notes
-Feel free to update, make comments and come up with better ways of doing this as i'm starting out!
+Comments and better methods welcome..
 
 R  
 
