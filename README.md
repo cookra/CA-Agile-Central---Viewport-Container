@@ -1,10 +1,11 @@
-Agile Central: Viewport Container Template
+CA Agile Central (Rally): Viewport Container Template
 =========================
 
 ## Overview
-Stub file template that has a viewport with 5 panels
+AC Viewport (5 Panel) template
 
-![5 panel Viewport](/gitimages/layout.png?raw=true )
+![5 panel Viewport](/gitimages/layout.png?raw=true )  
+  
 We also add listeners for:  
   
 Pre-render  
