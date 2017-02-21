@@ -4,14 +4,8 @@ Agile Central: Viewport Container Template
 ## Overview
 Stub file template that has a viewport with 5 panels
 
-x|""""""""|""""""""""""""""""""""""""""|""""""""|x  
-x| West ..| North .....................| East ..|x  
-x|........|""""""""""""""""""""""""""""|........|x  
-x|........| Center ....................|........|x  
-x|........|""""""""""""""""""""""""""""|........|x  
-x|........| South .....................|........|x  
-x|""""""""|""""""""""""""""""""""""""""|""""""""|x  
-  
+![5 panel Viewport](/gitimages/img.png?raw=true )
+
 We also add listeners for:  
   
 Pre-render  
