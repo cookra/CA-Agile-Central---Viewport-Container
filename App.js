@@ -34,15 +34,7 @@ Ext.define('CustomApp', {
                 height: 40,
                 minHeight: 40,
                 html: 'north',
-            }, {
-                region: 'east',
-                xtype: 'panel',
-                itemId: 'east',
-                id: 'viewPortEast',
-                width: 40,
-                minWidth: 40,
-                html: 'East',
-            }, {
+            },{
                 region: 'south',
                 xtype: 'panel',
                 itemId: 'south',
@@ -50,14 +42,6 @@ Ext.define('CustomApp', {
                 height: 120,
                 minHeight: 120,
                 html: 'South',
-            }, {
-                region: 'west',
-                xtype: 'panel',
-                itemId: 'west',
-                id: 'viewPortWast',
-                width: 40,
-                minWidth: 40,
-                html: 'West',
             }, {
                 region: 'center',
                 xtype: 'panel',
@@ -78,9 +62,9 @@ Ext.define('CustomApp', {
                     // Counts in our viewports regions as they load
                     x++;
                     console.log('Viewport Rendering [ #',x,']');
-                }
-            },
+                },
             scope: me
+            },
         });
         x = null;
         console.log('finished');
